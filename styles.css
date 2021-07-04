@@ -227,6 +227,7 @@ body{
 
 .sst{
   font-family: 'Barlow', sans-serif;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.6;
   transform: scaleY(1.1);
@@ -237,7 +238,7 @@ body{
 .ts{
   display: flex;
   flex-direction: column;
-  padding: 45px 5px 30px;
+  padding: 0 5px 30px;
 }
 
 .cts{
@@ -245,7 +246,6 @@ body{
   font-family: 'Fraunces', sans-serrif;
   font-size: 17px;
   letter-spacing: 3.5px;
-  margin-bottom: 27px;
 }
 
 .tsd{
@@ -324,7 +324,7 @@ body{
 
 .footer{
   background-color: rgb(144, 212, 197);
-  padding: 60px 20px 80px;
+  padding: 60px 20px 40px;
 }
 
 .btmlgdiv{
@@ -432,13 +432,14 @@ a.desk-contact{
 }
 
 h1.wel-note{
-  font-size: 50px;
+  font-size: 60px;
   letter-spacing: 6px;
   margin: 70px auto 80px;
 }
 
 .arw{
-  height: 100px;
+  height: 155px;
+  width: 35px;
 }
 
 div.extra-header{
@@ -500,12 +501,76 @@ p.ft{
   font-size: 13px;
 }
 
-a.fl{
-  text-align: left;
-}
-
 a.ftl::after{
   width: 70%;
+}
+
+.second-sec{
+  flex-direction: row;
+}
+
+.ssd{
+  width: 50%;
+}
+
+.ssthd{
+  margin: auto;
+  width: 50%;
+}
+
+.gd{
+  background-image: url("images/desktop/image-graphic-design.jpg");
+}
+
+.ph{
+  background-image: url("images/desktop/image-photography.jpg");
+}
+
+h3.cts{
+  margin: 150px auto 10px;
+}
+
+.ts{
+  flex-direction: row;
+  padding: 50px 150px 130px;
+}
+
+.tst{
+  height: 50px;
+  margin-bottom: 120px;
+}
+
+.mgd{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.mgi{
+  width: 25%;
+}
+
+.mlkbtl{
+  content: url("images/desktop/image-gallery-milkbottles.jpg")
+}
+
+.orng{
+  content: url("images/desktop/image-gallery-orange.jpg")
+}
+
+.cone{
+  content: url("images/desktop/image-gallery-cone.jpg")
+}
+
+.sgrcb{
+  content: url("images/desktop/image-gallery-sugarcubes.jpg")
+}
+
+.fbld{
+  width: 20%;
+}
+
+.btmid{
+  width: 15%;
 }
 
 }/*End */
