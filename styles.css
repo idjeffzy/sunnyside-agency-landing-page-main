@@ -93,7 +93,7 @@ body{
   text-decoration: none;
 }
 
-.Contact{
+.contact{
   background-color: rgb(250, 212, 0);
   border-radius: 90px;
   color: rgb(35, 48, 62);
@@ -102,6 +102,10 @@ body{
   margin-top: -5px;
   padding: 13px 16px;
   width: 55%;
+}
+
+.contact:hover{
+  background-color: rgb(255, 145, 0);
 }
 
 /* rest of body */
