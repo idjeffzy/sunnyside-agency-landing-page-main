@@ -437,6 +437,11 @@ a.desk-contact{
   padding: 5% 5%;
 }
 
+.desk-contact:hover{
+  background-color: rgb(128, 215, 255);
+  cursor: pointer;
+}
+
 h1.wel-note{
   font-size: 60px;
   letter-spacing: 6px;
@@ -506,8 +511,9 @@ p.ft{
   font-size: 13px;
 }
 
-.ftld{
-  margin-top: 40px;
+div.ftld{
+  margin-top: 50px;
+  right: 33%;
 }
 
 a.ftl::after{
@@ -541,12 +547,12 @@ h3.cts{
 
 .ts{
   flex-direction: row;
-  padding: 50px 150px 130px;
+  padding: 50px 40px 100px;
 }
 
 .tst{
   height: 50px;
-  margin-bottom: 120px;
+  margin-bottom: 170px;
 }
 
 .mgd{
@@ -615,6 +621,15 @@ p.ft{
   font-size: 18px;
 }
 
+.ts{
+  padding: 50px 60px 100px;
+}
+
+.tst{
+  height: 50px;
+  margin-bottom: 150px;
+}
+
 }/* ENDDDDDDDDDDD*/
 
 @media(min-width: 1440px){
@@ -636,6 +651,7 @@ div.ftd{
   text-align: left;
   width: 50%;
 }
+
 div.fid{
   height: 600px;
 }
@@ -644,7 +660,9 @@ a.ftl::after{
   width: 108%;
 }
 
-
+.tst{
+  margin-bottom: 120px;
+}
 
 }/* ENDDDDDDDDDDD*/
 
