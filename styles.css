@@ -119,7 +119,7 @@ body{
 }
 
 .arw{
-  content: url("images/icon-arrow-down.svg");
+  content: url("images\icon-arrow-down.svg");
   height: 180px;
 }
 
