@@ -246,6 +246,7 @@ body{
   font-family: 'Fraunces', sans-serrif;
   font-size: 17px;
   letter-spacing: 3.5px;
+  margin-top: 60px;
 }
 
 .tsd{
@@ -363,6 +364,11 @@ body{
   justify-content: space-between;
   margin: 90px auto 0;
   width: 50%;
+}
+
+.btmimglk:hover > path {
+  fill: white;
+  cursor: pointer;
 }
 
 /* Attribution */
@@ -486,9 +492,8 @@ div.ftd{
   display: flex;
   flex-direction: column;
   height: 320px !important;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0 80px;
-  text-align: left;
   width: 50%;
 }
 
@@ -499,6 +504,10 @@ h2.fh{
 
 p.ft{
   font-size: 13px;
+}
+
+.ftld{
+  margin-top: 40px;
 }
 
 a.ftl::after{
@@ -632,7 +641,7 @@ div.fid{
 }
 
 a.ftl::after{
-  width: 23%;
+  width: 108%;
 }
 
 
