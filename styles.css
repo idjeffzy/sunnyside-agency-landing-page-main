@@ -568,19 +568,19 @@ h3.cts{
   width: 25%;
 }
 
-.mlkbtl{
-  content: url("images\desktop\image-gallery-milkbottles.jpg")
+img.mlkbtl{
+  content: url("images/desktop/image-gallery-milkbottles.jpg")
 }
 
-.orng{
+img.orng{
   content: url("images/desktop/image-gallery-orange.jpg")
 }
 
-.cone{
+img.cone{
   content: url("images/desktop/image-gallery-cone.jpg")
 }
 
-.sgrcb{
+img.sgrcb{
   content: url("images/desktop/image-gallery-sugarcubes.jpg")
 }
 
